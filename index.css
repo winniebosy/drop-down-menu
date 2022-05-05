@@ -2,6 +2,24 @@
     font-size: 100%;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .attribution small {
     font-size: 70%;
+}
+
+li .arrow-down-icon::after {
+    content: url("images/icon-arrow-down.svg");
+}
+
+li {
+    list-style-type: none;
 }
