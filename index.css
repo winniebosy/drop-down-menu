@@ -23,3 +23,25 @@ li .arrow-down-icon::after {
 li {
     list-style-type: none;
 }
+
+
+/* drop down menu styling starts here */
+
+.dropdown-item-todo::before {
+    content: Url("images/icon-todo.svg");
+}
+
+.dropdown-item-calender::before {
+    content: url("images/icon-calendar.svg");
+}
+
+.dropdown-item-reminder::before {
+    content: url("images/icon-reminders.svg");
+}
+
+.dropdown-item-planning::before {
+    content: url("images/icon-planning.svg");
+}
+
+
+/* drop down menu styling ends here */
